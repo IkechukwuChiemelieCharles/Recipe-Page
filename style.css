@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background-color: hsl(330, 100%, 98%);
+  width: 500px;
+  height: 1900px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px 50px;
+}
+.omelette img {
+  width: 430px;
+  margin: 10px 0;
+  margin-top: 10px;
+  margin-left: -15px;
+  border-radius: 10px;
+}
+.simple {
+  margin: 10px -12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: hsl(24, 5%, 18%);
+  line-height: 30px;
+}
+
+.section1 {
+  background-color: hsl(332, 46%, 89%);
+  margin: 10px -12px;
+  padding: 10px 20px;
+  height: 150px;
+  border-radius: 10px;
+  color: hsl(332, 51%, 32%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.total {
+  padding-top: auto;
+  padding-left: 20px;
+  color: black;
+  line-height: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+}
+.ingredients {
+  padding: 5px 15px;
+  margin: 10px -12px;
+  color: black;
+  line-height: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+}
+.instructions {
+  padding: 5px 15px;
+  color: hsl(24, 5%, 18%);
+  line-height: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+}
+
+.section2 {
+  margin: 10px -12px;
+  color: hsl(14, 45%, 36%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section2 ul {
+  color: black;
+  padding: 0 15px;
+  margin: 10px -0;
+}
+.section3 {
+  margin: 10px -12px;
+  color: hsl(14, 45%, 36%);
+  margin: 10px -12px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section3 ol {
+  color: black;
+  padding: 10px 15px;
+  line-height: 30px;
+}
+
+.section4 {
+  margin: 10px -12px;
+}
+.section4 h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-right: 100px;
+}
+.table-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.kcal {
+  color: hsl(14, 45%, 36%);
+  font-weight: 1000;
+  margin-left: 50px;
+}
+.calories {
+  margin-left: -80px;
+}
+.carbs {
+  margin-left: -100px;
+}
+.protein {
+  margin-left: -90px;
+}
+.fat {
+  margin-left: -100px;
+}
+
+@media screen and (min-width: 990px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background-color: hsl(30, 54%, 90%);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    background-color: hsl(330, 100%, 98%);
+    width: 1000px;
+    height: 2000px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px 50px;
+  }
+  .omelette img {
+    width: 900px;
+    margin: 10px 60px;
+    margin-top: 20px;
+    margin-left: -5px;
+    border-radius: 10px;
+  }
+  .simple {
+    margin: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(24, 5%, 18%);
+    line-height: 30px;
+  }
+
+  .section1 {
+    background-color: hsl(332, 46%, 89%);
+    margin: 10px 0;
+    padding: 10px 20px;
+    height: 150px;
+    border-radius: 10px;
+    color: hsl(332, 51%, 32%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .total {
+    padding-top: auto;
+    padding-left: 20px;
+    color: black;
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+  }
+  .ingredients {
+    padding: 5px 15px;
+    margin: 10px 0;
+    color: black;
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+  }
+  .instructions {
+    padding: 5px 15px;
+    color: hsl(24, 5%, 18%);
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .section2 {
+    margin: 10px 0;
+    color: hsl(14, 45%, 36%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .section2 ul {
+    color: black;
+    padding: 0 15px;
+  }
+  .section3 {
+    margin: 10px 50px;
+    color: hsl(14, 45%, 36%);
+    margin: 10px 0;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .section3 ol {
+    color: black;
+    padding: 10px 15px;
+    line-height: 30px;
+  }
+
+  .section4 {
+    margin: 10px 0;
+  }
+  .section4 h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  hr {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-right: 100px;
+  }
+  .table-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .kcal {
+    padding-right: 500px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 1000;
+    margin-left: 200px;
+  }
+  .calories {
+    margin-left: -0;
+  }
+  .carbs {
+    margin-left: -0;
+  }
+  .protein {
+    margin-left: -0;
+  }
+  .fat {
+    margin-left: -0;
+  }
+}
