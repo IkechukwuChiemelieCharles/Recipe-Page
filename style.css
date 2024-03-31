@@ -143,7 +143,7 @@ hr {
     background-color: hsl(330, 100%, 98%);
     width: 1000px;
     height: 2000px;
-    margin: 20px auto;
+    margin: 0 auto;
     border-radius: 10px;
     padding: 10px 50px;
   }
